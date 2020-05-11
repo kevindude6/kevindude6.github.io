@@ -1,16 +1,24 @@
 import React from "react"
-import "../styles/styles.scss"
+
+
+//import "../styles/styles.scss"
 
 
 //import components
-import Header from '../components/header'
-import Banner from '../components/banner'
+
+import BSHeader from '../components/bsheader'
+import Sidebar from '../components/sidebar'
+//import Header from '../components/header'
+//import Banner from '../components/banner'
 
 const IndexPage = () => (
   <div>
-    <Header />
-    <Banner />
+    <BSHeader/>
+    <div id="wrapper">
+      <Sidebar></Sidebar>
+    </div>
   </div>
+  
 )
 
 export default IndexPage

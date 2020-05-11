@@ -10,6 +10,9 @@ html,
 body {
     font-family: $font;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
+
 }
 
 .container {
@@ -100,5 +103,45 @@ header {
             }
         }
 
+        .main-image{
+            width: 536px;
+            margin: 0 auto;
+            @media (max-width: 1440px){
+                width: 436px;
+            }
+        }
+        .side-image{
+            width: 360px;
+            position: absolute;
+            @media (max-width: 1440px){
+                width: 200px;
+            }
+            &.left{
+                left: 168px;
+                top: 12px;
+                @media (max-width: 1440px){
+                    left: 128px;
+                }
+
+            }
+            &.right{
+                right: 168px;
+                bottom: 12px;
+                @media (max-width: 1440px){
+                    right: 128px;
+                }
+
+            }
+        }
+
+    }
+    .scroll {
+        font-weight: 700;
+        font-size: .875rem;
+        letter-spacing: 1.5px;
+        color: $black;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 48px;
     }
 }
