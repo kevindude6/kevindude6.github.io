@@ -1,6 +1,12 @@
 $font: "Helvetica Neue",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 //Colors
+$floralwhite: #fffcf2;
+$palesilver: #ccc5b9;
+$blackolive: #403D39;
+$eerieblack: #252422;
+$flame: #eb5e28;
+
 $white: #fff;
 $black: #000;
 $maroon: #83333e;
@@ -12,6 +18,7 @@ body {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    background-color: $eerieblack;
 
 }
 
@@ -143,5 +150,24 @@ header {
         text-transform: uppercase;
         position: absolute;
         bottom: 48px;
+    }
+}
+
+.bottom-nav {
+    width:100%;
+    background-color:$blackolive;
+    overflow:auto;
+    position: absolute;
+    bottom: 0px;
+    box-shadow: 0px -2px 2px 1px $flame;
+
+    .bottomlink{
+        float: left;
+        text-align: center;
+        width: 25%;
+        padding: 12px 0;
+        transition: all 0.3s ease;
+        color: $floralwhite;
+        font-size: 1.5rem;
     }
 }

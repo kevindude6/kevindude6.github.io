@@ -8,14 +8,14 @@ import React from "react"
 
 import BSHeader from '../components/bsheader'
 import Sidebar from '../components/sidebar'
+import BottomNavbar from "../components/bottomnavbar"
 //import Header from '../components/header'
 //import Banner from '../components/banner'
 
 const IndexPage = () => (
   <div>
-    <BSHeader/>
     <div id="wrapper">
-      <Sidebar></Sidebar>
+      <BottomNavbar></BottomNavbar>
     </div>
   </div>
   
