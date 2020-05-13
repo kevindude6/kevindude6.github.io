@@ -25,8 +25,9 @@ const AboutPage = () => (
         <p className="normaltext centeralign">I feel comfortable working in C and C++.</p>
         <p className="normaltext centeralign">I love working in teams.</p>
         <p className="normaltext centeralign">But most importantly,</p>
-        <p className="bigtext centeralign">I can learn.</p>
-        <p className="hugetext centeralign">Anything</p>
+        <p className="bigtext centeralign">I can learn...</p>
+        <br/><br/><br/>
+        <p className="hugetext centeralign">Anything.</p>
       </div>
     </div>
   </div>
