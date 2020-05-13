@@ -20,6 +20,13 @@ const AboutPage = () => (
         <p className="hugetext centeralign">Oh, hello.</p>
         <p className="bigtext centeralign">My name is Kevin</p>
         <p className="normaltext centeralign">Please hire me.</p>
+        <p className="normaltext centeralign">I have a variety of skills and interests.</p>
+        <p className="normaltext centeralign">I am proficient in Java and C#.</p>
+        <p className="normaltext centeralign">I feel comfortable working in C and C++.</p>
+        <p className="normaltext centeralign">I love working in teams.</p>
+        <p className="normaltext centeralign">But most importantly,</p>
+        <p className="bigtext centeralign">I can learn.</p>
+        <p className="hugetext centeralign">Anything</p>
       </div>
     </div>
   </div>
