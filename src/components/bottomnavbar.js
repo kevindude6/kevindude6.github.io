@@ -10,10 +10,10 @@ const BottomNavbar = (props) => (
       <hr></hr>
     </div>
     
-    <Link className={"bottomlink" + (props.activepage === "About" ? " active" : "")} to="#">About</Link>
-    <Link className={"bottomlink" + (props.activepage === "Resume" ? " active" : "")} to="#">Resume</Link>
-    <Link className={"bottomlink" + (props.activepage === "Projects" ? " active" : "")} to="#">Projects</Link>
-    <Link className={"bottomlink" + (props.activepage === "Modeling" ? " active" : "")} to="#">Modeling</Link>
+    <Link className={"bottomlink" + (props.activepage === "About" ? " active" : "")} to="about">About</Link>
+    <Link className={"bottomlink" + (props.activepage === "Resume" ? " active" : "")} to="resume">Resume</Link>
+    <Link className={"bottomlink" + (props.activepage === "Projects" ? " active" : "")} to="projects">Projects</Link>
+    <Link className={"bottomlink" + (props.activepage === "Modeling" ? " active" : "")} to="modeling">Modeling</Link>
   </div>
 )
 

@@ -12,13 +12,13 @@ import BottomNavbar from "../components/bottomnavbar"
 //import Header from '../components/header'
 //import Banner from '../components/banner'
 
-const IndexPage = () => (
+const ResumePage = () => (
   <div>
     <div id="wrapper">
-      <BottomNavbar activepage="About"></BottomNavbar>
+      <BottomNavbar activepage="Resume"></BottomNavbar>
     </div>
   </div>
   
 )
 
-export default IndexPage
+export default ResumePage

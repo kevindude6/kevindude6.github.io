@@ -157,7 +157,7 @@ header {
     width:100%;
     background-color:$blackolive;
     overflow:auto;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     box-shadow: 2px -2px 2px 1px $flame;
 
@@ -232,3 +232,45 @@ header {
 }
 
 hr { background-color: $flame; height: 2px; border: 0; margin-bottom: 0px;}
+
+
+//PAGE CONTENT
+
+.content-pane{
+    top: 0px;
+    margin-top: 0px;
+    color: $white;
+    margin-bottom: 15%;
+    
+    .hugetext{
+        margin-top: 100px;
+        font-size: 10rem;
+        font-weight: 600;
+        
+        @media (min-width: 768px) {
+            
+            }
+        
+    }
+    .bigtext{
+        font-size: 5rem;
+        font-weight: 400;
+        
+    }
+    .normaltext{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .leftalign{text-align: left;}
+    .centeralign{text-align: center;}
+    .rightalign{text-align: right;}
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    @media (min-width: 768px) {
+        margin-left: 12%;
+        
+    }
+}
