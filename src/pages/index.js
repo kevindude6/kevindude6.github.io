@@ -15,7 +15,7 @@ import BottomNavbar from "../components/bottomnavbar"
 const IndexPage = () => (
   <div>
     <div id="wrapper">
-      <BottomNavbar></BottomNavbar>
+      <BottomNavbar activepage="About"></BottomNavbar>
     </div>
   </div>
   
