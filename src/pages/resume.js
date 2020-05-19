@@ -50,10 +50,26 @@ const ResumePage = () => (
           <li>Undergraduate Technology Apprenticeship Program (2018 - 2019)</li>
         </ul>
         
+        <p className="bigtext leftalign">Education</p>
+        <hr></hr>
+        <p className="normaltext leftalign">University Of Maryland, College Park - 3.422 GPA</p>
+        <ul className="normaltext leftalign">
+          <li>Programming Handheld Systems</li>
+          <li>Machine Learning</li>
+          <li>Discrete Structures</li>
+          <li>Algorithms</li>
+          <li>Game Programming</li>
+        </ul>
 
-
-
-
+        <p className="bigtext leftalign">Activities and Achievements</p>
+        <hr></hr>
+        <ul className="normaltext leftalign">
+          <li>Independent Android application development</li>
+          <li>Independent Game Development (mobile and PC)</li>
+          <li>President of UMD Fencing Club (2016-2017)</li>
+          <li>CMNS Dean’s list (2018, 2019)</li>
+          <li>Botball 2014 International Champions (August 2014)</li>
+        </ul>
        
       </div>
     </div>
